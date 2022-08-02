@@ -10,5 +10,5 @@ class Movie(models.Model):
     movie_title = models.CharField(max_length=50)
     director=models.TextField(max_length=100)
     actor=models.TextField(max_length=100)
-    MusicComposer=models.TextField(max_length=100,default= '')
+    music_omposer=models.TextField(max_length=100,default= '')
     
